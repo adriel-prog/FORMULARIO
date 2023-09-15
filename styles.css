@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    background: linear-gradient(90deg, #ff8c42 0%, #ffcf74 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 80%;
+}
+
+fieldset {
+    text-align: left;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    border-bottom: 2px solid #ff8c42;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    background: transparent;
+}
+
+label {
+    font-weight: bold;
+    color: #ff8c42;
+}
+
+#enviar,
+#limpar {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#enviar {
+    background-color: #ff8c42;
+    color: #fff;
+}
+
+#enviar:hover{
+    background-color: rgb(0, 255, 30);
+}
+
+#limpar:hover {
+    background-color: #ff6161;
+}
