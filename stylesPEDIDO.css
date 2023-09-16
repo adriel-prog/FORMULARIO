@@ -1,0 +1,55 @@
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        background-color: silver;
+    }
+    
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    fieldset {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 2px gray;
+    }
+    
+    input,
+    select,
+    textarea {
+        border-radius: 4px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    #enviar,
+    #limpar {
+        cursor: pointer;
+    }
+    
+    #enviar {
+        background-color: rgb(32, 157, 32);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        margin: 5px;
+    }
+    
+    #limpar {
+        background-color: rgb(149, 12, 12);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        margin: 5px;
+    }
+    
